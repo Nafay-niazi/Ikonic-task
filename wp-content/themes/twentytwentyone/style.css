@@ -5888,3 +5888,27 @@ footer {
 .is-IE .post-thumbnail .wp-post-image {
 	min-width: auto;
 }
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures content is centered vertically */
+    text-align: center; /* Center text content horizontally */
+}
+
+/* Optional styling for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.kanye-quotes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kanye-quotes li {
+    margin-bottom: 10px;
+    font-style: italic;
+}
